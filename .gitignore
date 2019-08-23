@@ -1,0 +1,6 @@
+all-crates.json
+all-full-crates.json
+license-snapshots.json
+*.pyc
+/target
+**/*.rs.bk

@@ -1,0 +1,17 @@
+[package]
+name = "crates_io_licenses_over_time"
+version = "0.1.0"
+authors = ["cmr <corey@octayn.net>"]
+edition = "2018"
+
+[dependencies]
+crates_io_api = {path="/Users/cmr/crates_io_api"}
+hyper = "*"
+serde = "*"
+serde_json = "*"
+failure = "*"
+env_logger = "*"
+futures = "*"
+tokio = "*"
+serde_derive = "*"
+chrono = "*"
